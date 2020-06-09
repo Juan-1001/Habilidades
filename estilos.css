@@ -1,0 +1,406 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h3 {
+  text-align: center;
+}
+h1{
+  margin: 20px;
+}
+h3 {
+  animation-name: h3;
+  animation-duration: 2s;
+}
+.fas {
+  animation-name: icono;
+  animation-duration: 2s;
+}
+@keyframes h3{
+  0%,100%{
+    transform: translate(0px);
+  }
+  25%{
+    transform: translate(25px);
+  }
+  75%{
+    transform: translate(-25px);
+  }
+}
+@keyframes icono {
+  0% {
+    opacity: 0;
+    transform: scale(.1); 
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: scale(1); 
+    transform: rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); 
+    transform: rotate(360deg);
+  }
+}
+
+  #myBar22 {
+    margin-bottom: 20px;
+  }
+
+/* Habilidades técnicas */
+
+/* ofimática */
+#myProgress {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Ai */
+  #myProgress2 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+ 
+#myBar2 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+ /* Ps */
+  #myProgress3 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar3 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* HTML */
+  #myProgress4 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar4 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* CSS */
+  #myProgress5 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar5 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* InDesign */
+  #myProgress6 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar6 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Animate */
+  #myProgress7 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar7 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Protools */
+  #myProgress8 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar8 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Js */
+  #myProgress9 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar9 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Git */
+  #myProgress10 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar10 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Bootstrap */
+  #myProgress11 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar11 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+
+  /* Habiliaddes blandas */
+
+  /* Ofimática */
+  #myProgress12 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar12 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Ai */
+  #myProgress13 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+ 
+#myBar13 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+ /* Ps */
+  #myProgress14 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar14 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* HTML */
+  #myProgress15 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar15 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* CSS */
+  #myProgress16 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar16 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* InDesign */
+  #myProgress17 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar17 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Animate */
+  #myProgress18 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar18 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Protools */
+  #myProgress19 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar19 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Js */
+  #myProgress20 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar20 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Git */
+  #myProgress21 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar21 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+/* Bootstrap */
+  #myProgress22 {
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+#myBar22 {
+    width: 5%;
+    height: 20px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 20px;
+}
