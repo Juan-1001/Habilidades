@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 90%;
+    z-index: 9999;
+    position: absolute;
+    position: fixed ;
+}
+header nav{
+    width: 97%;
+    max-width: 1073px;
+    margin: 20px auto;
+    background-color: #024959;
+}
+body{
+    background: #fffff1;
+    z-index: 10;
+    position: absolute;
+}
+.menu_bar{
+    display: none;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    background-color: #037e8c;
+    color: white;
+}
+section{
+    padding: 20px;
+}
+@media screen and (max-width: 900px){
+    header nav {
+        width: 70%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(225, 225, 225, .3);
+    }
+    .menu_bar{
+        display: block;
+        width: 100%;
+        background: #ccc;
+    }
+    .menu_bar .bt-menu{
+        display: block;
+        padding: 20px;
+        background: #024959;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .fa-bars{
+        float: right;
+        font-size: 35px;
+        margin-right: 20px;
+    }
+}
+#frase{
+    background-color: salmon;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#biografiatitulo{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.biografia{
+    background-color: salmon;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    color: black;
+    padding: 25px 30px;
+    font-size: 18px;
+
+}
